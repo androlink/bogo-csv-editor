@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bogo-csv-editor.dir/main.c.obj"
+  "CMakeFiles/bogo-csv-editor.dir/source/client.c.obj"
   "bogo-csv-editor.exe"
   "bogo-csv-editor.exe.manifest"
   "bogo-csv-editor.pdb"

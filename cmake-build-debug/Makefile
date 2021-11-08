@@ -152,6 +152,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bogo-csv-editor.dir\build.make CMakeFiles/bogo-csv-editor.dir/main.c.s
 .PHONY : main.c.s
 
+source/client.obj: source/client.c.obj
+.PHONY : source/client.obj
+
+# target to build an object file
+source/client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bogo-csv-editor.dir\build.make CMakeFiles/bogo-csv-editor.dir/source/client.c.obj
+.PHONY : source/client.c.obj
+
+source/client.i: source/client.c.i
+.PHONY : source/client.i
+
+# target to preprocess a source file
+source/client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bogo-csv-editor.dir\build.make CMakeFiles/bogo-csv-editor.dir/source/client.c.i
+.PHONY : source/client.c.i
+
+source/client.s: source/client.c.s
+.PHONY : source/client.s
+
+# target to generate assembly for a file
+source/client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bogo-csv-editor.dir\build.make CMakeFiles/bogo-csv-editor.dir/source/client.c.s
+.PHONY : source/client.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... source/client.obj
+	@echo ... source/client.i
+	@echo ... source/client.s
 .PHONY : help
 
 

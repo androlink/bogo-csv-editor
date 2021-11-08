@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Androlink/CLionProjects/bogo-csv-editor/main.c" "C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/CMakeFiles/bogo-csv-editor.dir/main.c.obj"
+  "C:/Users/Androlink/CLionProjects/bogo-csv-editor/source/client.c" "C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/CMakeFiles/bogo-csv-editor.dir/source/client.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

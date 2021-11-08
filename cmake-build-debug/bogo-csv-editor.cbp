@@ -77,6 +77,12 @@
 		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/main.c">
 			<Option target="bogo-csv-editor"/>
 		</Unit>
+		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/source/client.c">
+			<Option target="bogo-csv-editor"/>
+		</Unit>
+		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/source/client.h">
+			<Option target="bogo-csv-editor"/>
+		</Unit>
 		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
