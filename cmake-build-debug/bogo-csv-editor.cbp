@@ -8,82 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
+				<Option working_dir="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="bogo-csv-editor">
-				<Option output="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/bogo-csv-editor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 bogo-csv-editor"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="bogo-csv-editor/fast">
-				<Option output="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/bogo-csv-editor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 bogo-csv-editor/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
+				<Option working_dir="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bogo-csv-editor">
+				<Option output="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/bogo-csv-editor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 bogo-csv-editor"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bogo-csv-editor/fast">
+				<Option output="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/bogo-csv-editor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 bogo-csv-editor/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/main.c">
+		<Unit filename="/home/androlink/CLionProjects/bogo-csv-editor/main.c">
 			<Option target="bogo-csv-editor"/>
 		</Unit>
-		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/source/client.c">
+		<Unit filename="/home/androlink/CLionProjects/bogo-csv-editor/source/client.c">
 			<Option target="bogo-csv-editor"/>
 		</Unit>
-		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/source/client.h">
+		<Unit filename="/home/androlink/CLionProjects/bogo-csv-editor/source/client.h">
 			<Option target="bogo-csv-editor"/>
 		</Unit>
-		<Unit filename="C:/Users/Androlink/CLionProjects/bogo-csv-editor/CMakeLists.txt">
+		<Unit filename="/home/androlink/CLionProjects/bogo-csv-editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

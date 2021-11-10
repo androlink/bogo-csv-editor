@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Androlink/CLionProjects/bogo-csv-editor/main.c
+/home/androlink/CLionProjects/bogo-csv-editor/main.c
 stdio.h
 -
+source/client.h
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.c
+client.h
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
 

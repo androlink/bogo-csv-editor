@@ -3,8 +3,10 @@
 //
 
 #include <stdio.h>
+#include "source/client.h"
 
 int main(){
+printf("%d",sizeof(Client));
 
 
 

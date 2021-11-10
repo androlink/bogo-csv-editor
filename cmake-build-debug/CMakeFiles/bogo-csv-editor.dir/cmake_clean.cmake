@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bogo-csv-editor.dir/main.c.obj"
-  "CMakeFiles/bogo-csv-editor.dir/source/client.c.obj"
-  "bogo-csv-editor.exe"
-  "bogo-csv-editor.exe.manifest"
+  "CMakeFiles/bogo-csv-editor.dir/main.c.o"
+  "CMakeFiles/bogo-csv-editor.dir/source/client.c.o"
+  "bogo-csv-editor"
   "bogo-csv-editor.pdb"
-  "libbogo-csv-editor.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
