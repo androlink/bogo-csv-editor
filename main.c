@@ -4,12 +4,22 @@
 
 #include <stdio.h>
 #include "source/client.h"
+#include "tools/readFile.h"
 
 int main(){
-printf("%d",sizeof(Client));
+    FILE* fichier = NULL;
+
+    fichier = fopen("annuaire5000.csv", "r");
+
+    if(fichier==NULL){
+        printf("le fichier n'a pas pu etre charge");
+        return (1);
+    }
+
+    int d=fcount(fichier,'\n');
 
 
 
-
+    fclose(fichier);
     return 0;
 }

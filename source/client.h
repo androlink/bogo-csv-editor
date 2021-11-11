@@ -13,20 +13,15 @@ struct CLIENT{ //creation du type client
     char prenom[20];
     char ville[20];
     int code_postal;
-    int phone;
+    short phone[5];
     char mail[40];
     char job[20];
 
+};
 
-    Client *suivant;
-};
-struct InfoClient{                                 //creation d'une liste chainé
-    Client *premier;
-    unsigned int size;
-};
 int add();
 int supr();
 int load();
-
+int recherche();
 
 #endif //BOGO_CSV_EDITOR_CLIENT_H
