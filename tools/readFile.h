@@ -6,6 +6,7 @@
 #define BOGO_CSV_EDITOR_READFILE_H
 
 int fcount(FILE *f,char model);
+int ffind(FILE *f,char model);
 int readLine();
 int readAll();
 

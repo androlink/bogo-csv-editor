@@ -177,6 +177,30 @@ source/client.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/source/client.c.s
 .PHONY : source/client.c.s
 
+tools/readFile.o: tools/readFile.c.o
+.PHONY : tools/readFile.o
+
+# target to build an object file
+tools/readFile.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/tools/readFile.c.o
+.PHONY : tools/readFile.c.o
+
+tools/readFile.i: tools/readFile.c.i
+.PHONY : tools/readFile.i
+
+# target to preprocess a source file
+tools/readFile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/tools/readFile.c.i
+.PHONY : tools/readFile.c.i
+
+tools/readFile.s: tools/readFile.c.s
+.PHONY : tools/readFile.s
+
+# target to generate assembly for a file
+tools/readFile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/tools/readFile.c.s
+.PHONY : tools/readFile.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... source/client.o"
 	@echo "... source/client.i"
 	@echo "... source/client.s"
+	@echo "... tools/readFile.o"
+	@echo "... tools/readFile.i"
+	@echo "... tools/readFile.s"
 .PHONY : help
 
 

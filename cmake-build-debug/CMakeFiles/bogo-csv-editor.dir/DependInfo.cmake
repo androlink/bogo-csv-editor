@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/androlink/CLionProjects/bogo-csv-editor/main.c" "/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/CMakeFiles/bogo-csv-editor.dir/main.c.o"
   "/home/androlink/CLionProjects/bogo-csv-editor/source/client.c" "/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/CMakeFiles/bogo-csv-editor.dir/source/client.c.o"
+  "/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.c" "/home/androlink/CLionProjects/bogo-csv-editor/cmake-build-debug/CMakeFiles/bogo-csv-editor.dir/tools/readFile.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
