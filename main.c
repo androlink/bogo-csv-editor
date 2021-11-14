@@ -6,9 +6,9 @@
 #include "source/client.h"
 #include "tools/readFile.h"
 
-int main(){
-    FILE* fichier = NULL;
+FILE* fichier = NULL;
 
+int main(){
     fichier = fopen("annuaire5000.csv", "r");
 
     if(fichier==NULL){

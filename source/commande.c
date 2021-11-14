@@ -3,11 +3,35 @@
 //
 
 #include "commande.h"
+#include "client.h"
+#include "../tools/readFile.h"
 #include <stdio.h>
 
+void commande_main(FILE *f){
+    int run=1;
+    while(run){
 
-int printc(char tab[],char arg[][5]){
 
+
+
+
+
+
+
+
+
+
+        run=0;
+    }
+}
+
+
+
+
+int printc(FILE *f,char arg[][5]){//        fichier ,   argument de commande
+    Client cl[fcount(f,'\n')-1];
+
+    load(f,cl,sizeof (cl)/sizeof(Client));
 
 
 
