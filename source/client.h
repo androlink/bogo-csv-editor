@@ -9,19 +9,19 @@ typedef struct InfoClient List;
 
 struct CLIENT{ //creation du type client
 
-    char nom[20];
-    char prenom[20];
-    char ville[20];
-    int code_postal;
-    short phone[5];
-    char mail[40];
-    char job[20];
+    char nom[22];//+1 pour le caracter de debut de ligne
+    char prenom[21];
+    char ville[21];
+    char code_postal[6];//5 caracter +1 "\0"
+    char tel[15];//14 caracter +1 "\0"
+    char mail[41];
+    char job[21];
 
 };
 
 int add();
 int supr();
-int load();
-int recherche();
 
+int recherche(char tab[], int tabLenght,char model[]);
+int frecherche();
 #endif //BOGO_CSV_EDITOR_CLIENT_H

@@ -12,12 +12,16 @@ int main(){
     fichier = fopen("annuaire5000.csv", "r");
 
     if(fichier==NULL){
-        printf("le fichier n'a pas pu etre charge");
+        printf("le fichier n'a pas pu etre charg\202");
         return (1);
     }
 
-    int d=fcount(fichier,'\n');
+    Client cl[fcount(fichier,'\n')-1];
 
+    load(fichier,cl,sizeof (cl)/sizeof(Client));
+
+
+    printf("%d",recherche(cl[3000].tel,15,"43"));
 
 
     fclose(fichier);
