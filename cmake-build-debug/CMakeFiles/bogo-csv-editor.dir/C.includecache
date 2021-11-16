@@ -11,10 +11,40 @@ stdio.h
 -
 source/client.h
 /home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+tools/readFile.h
+/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.h
 
 /home/androlink/CLionProjects/bogo-csv-editor/source/client.c
+stdio.h
+-
 client.h
 /home/androlink/CLionProjects/bogo-csv-editor/source/client.h
 
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+
+/home/androlink/CLionProjects/bogo-csv-editor/source/commande.c
+commande.h
+/home/androlink/CLionProjects/bogo-csv-editor/source/commande.h
+client.h
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+../tools/readFile.h
+/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.h
+stdio.h
+-
+
+/home/androlink/CLionProjects/bogo-csv-editor/source/commande.h
+stdio.h
+-
+
+/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.c
+stdio.h
+-
+readFile.h
+/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.h
+../source/client.h
+/home/androlink/CLionProjects/bogo-csv-editor/source/client.h
+
+/home/androlink/CLionProjects/bogo-csv-editor/tools/readFile.h
+../source/client.h
 /home/androlink/CLionProjects/bogo-csv-editor/source/client.h
 

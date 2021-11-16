@@ -19,7 +19,7 @@ int main(){
     Client cl[fcount(fichier,'\n')-1];
 
     load(fichier,cl,sizeof (cl)/sizeof(Client));
-
+    printf("%d",sizeof(cl)/sizeof(Client));
 
     printf("%d",recherche(cl[3000].tel,15,"43"));
 

@@ -177,6 +177,30 @@ source/client.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/source/client.c.s
 .PHONY : source/client.c.s
 
+source/commande.o: source/commande.c.o
+.PHONY : source/commande.o
+
+# target to build an object file
+source/commande.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/source/commande.c.o
+.PHONY : source/commande.c.o
+
+source/commande.i: source/commande.c.i
+.PHONY : source/commande.i
+
+# target to preprocess a source file
+source/commande.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/source/commande.c.i
+.PHONY : source/commande.c.i
+
+source/commande.s: source/commande.c.s
+.PHONY : source/commande.s
+
+# target to generate assembly for a file
+source/commande.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bogo-csv-editor.dir/build.make CMakeFiles/bogo-csv-editor.dir/source/commande.c.s
+.PHONY : source/commande.c.s
+
 tools/readFile.o: tools/readFile.c.o
 .PHONY : tools/readFile.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... source/client.o"
 	@echo "... source/client.i"
 	@echo "... source/client.s"
+	@echo "... source/commande.o"
+	@echo "... source/commande.i"
+	@echo "... source/commande.s"
 	@echo "... tools/readFile.o"
 	@echo "... tools/readFile.i"
 	@echo "... tools/readFile.s"

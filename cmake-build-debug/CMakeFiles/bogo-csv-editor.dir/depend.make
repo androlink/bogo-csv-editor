@@ -3,7 +3,17 @@
 
 CMakeFiles/bogo-csv-editor.dir/main.c.o: \
  ../main.c \
- ../source/client.h
+ ../source/client.h \
+ ../tools/readFile.h
 CMakeFiles/bogo-csv-editor.dir/source/client.c.o: \
  ../source/client.c \
  ../source/client.h
+CMakeFiles/bogo-csv-editor.dir/source/commande.c.o: \
+ ../source/client.h \
+ ../source/commande.c \
+ ../source/commande.h \
+ ../tools/readFile.h
+CMakeFiles/bogo-csv-editor.dir/tools/readFile.c.o: \
+ ../source/client.h \
+ ../tools/readFile.c \
+ ../tools/readFile.h
